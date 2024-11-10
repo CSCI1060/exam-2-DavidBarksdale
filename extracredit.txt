@@ -1,2 +1,18 @@
-Use this file to submit the extra credit problem. Be sure to describe your
-process for solving the problem, and not just to give the solution. 
+‘L ZLVK LW QHHG QRW KDYH KDSSHQHG LQ PB WLPH,’ VDLG
+IURGR.
+‘VR GR L,’ VDLG JDQGDOI, ‘DQG VR GR DOO ZKR OLYH WR
+VHH VXFK WLPHV. EXW WKDW LV QRW IRU WKHP WR GHFLGH.
+DOO ZH KDYH WR GHFLGH LV ZKDW WR GR ZLWK WKH WLPH
+WKDW LV JLYHQ, XV.
+
+
+
+In seeing this, the first thing I notice is the single characters inside of the quotations. This means that "L" must correspond to either "I" or "A". This would automatically mean that the Caesar shift key is either 3 backwards or 11 backwards. When translating the given cipher such that the "L" would become an "A", or a backwards 11 shift, it starts as "A OAKZ AL FWWV FGL", which is unintelligible. This means that the required shift is a backwards 3, meaning that the first letter of the first quotation is "I". The -3 shift results in the following:
+
+
+‘I WISH IT NEED NOT HAVE HAPPENED IN MY TIME,’ SAID
+FRODO.
+‘SO DO I,’ SAID GANDALF, ‘AND SO DO ALL WHO LIVE TO
+SEE SUCH TIMES. BUT THAT IS NOT FOR THEM TO DECIDE.
+ALL WE HAVE TO DECIDE IS WHAT TO DO WITH THE TIME
+THAT IS GIVEN, US.
