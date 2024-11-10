@@ -1,4 +1,4 @@
-function avgScore = simpleBlackjack(limit, trials)
+function AvgScore = simpleBlackjack(limit, trials)
 %
 % This function simulates playing many hands of
 % Simple Blackjack where the player continually
@@ -13,3 +13,23 @@ function avgScore = simpleBlackjack(limit, trials)
 % OUTPUT avgScore – The average final score of
 % all hands.
 
+
+    cards = [ 2 3 4 5 6 7 8 9 10 10 10 10 ];
+    total_over_all_hands = 0;
+    for i = 1:trials
+
+        currentHand = 0;
+        
+
+        while currentHand < limit
+            randomDraw = randi(12);
+            drawnCard = cards(randomDraw);
+            currentHand = currentHand + drawnCard;
+        end
+
+        total_over_all_hands = total_over_all_hands + currentHand;
+
+    end
+
+    AvgScore = total_over_all_hands/trials;
+end
